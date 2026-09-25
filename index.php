@@ -1,5 +1,5 @@
 <?php
-$token = "ISI_TOKEN_BOT_LU";
+$token = "8847470052:AAFJaKJlK3jTLigPL3yIBUbWldNMqm5gbbU";
 $update = json_decode(file_get_contents('php://input'), true);
 $uid = $update['message']['from']['id']?? $update['callback_query']['from']['id']?? 0;
 $chat_id = $update['message']['chat']['id']?? $update['callback_query']['message']['chat']['id']?? 0;

@@ -1,5 +1,5 @@
 <?php
-$TOKEN = "TOKEN_BARU_LU";
+$TOKEN = "8847470052:AAFJaKJlK3jTLigPL3yIBUbWldNMqm5gbbU";
 $ADMIN = 1404465764;
 $DOMAIN = "https://404bot-production.up.railway.app";
 define('API',"https://api.telegram.org/bot$TOKEN/");
